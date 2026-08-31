@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Parisienne&display=swap" />
+<style>
+  html, body { margin:0; padding:0; background:#EDE6E3; }
+  a { color:#7D112E; text-decoration:none; }
+  a:hover { color:#4B2330; }
+</style>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+  <section data-label="Kapak" data-screen-label="01" data-speaker-notes="Kendinizi tanıtın: aile danışmanı, İstanbul'da yüz yüze ve online görüşme." style="background:#FBEFEC; display:flex; align-items:stretch; overflow:hidden">
+    <div style="flex:1 1 56%; display:flex; flex-direction:column; justify-content:center; padding:120px 90px 120px 120px">
+      <p style="font:400 76px/1 Parisienne,cursive; color:#7D112E; margin:0">Tuğba Döngel</p>
+      <div style="display:flex; align-items:center; gap:22px; margin:34px 0 0; max-width:560px">
+        <span aria-hidden="true" style="flex:1; height:1px; background:#D9BFC4"></span>
+        <span style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.22em; text-transform:uppercase; color:#6D5E62; white-space:nowrap">Aile Danışmanlığı</span>
+        <span aria-hidden="true" style="flex:1; height:1px; background:#D9BFC4"></span>
+      </div>
+      <h1 style="font:400 78px/1.14 'Libre Caslon Text',serif; letter-spacing:-0.02em; color:#7D112E; margin:64px 0 0; max-width:17ch; text-wrap:pretty">İlişkinize yakından, yargısız ve güvenli bir alanda bakalım.</h1>
+      <p style="font:400 34px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:44px 0 0; max-width:34ch">Aile, çift, evlilik öncesi ve bireysel ilişki danışmanlığı — İstanbul ve online.</p>
+    </div>
+    <div style="flex:1 1 44%; position:relative; display:flex; align-items:flex-end; justify-content:center">
+      <span aria-hidden="true" style="position:absolute; right:-8%; top:-16%; width:70%; aspect-ratio:1/1; background:#F6DDD9; border-radius:50%"></span>
+      <span aria-hidden="true" style="position:absolute; right:8%; bottom:-24%; width:62%; aspect-ratio:1/1; background:#F2CFCC; opacity:0.75; border-radius:50%"></span>
+      <img src="images/tugba-portre.jpg" alt="Aile Danışmanı Tuğba Döngel — portre" style="position:relative; z-index:2; display:block; width:620px; height:820px; object-fit:cover; object-position:50% 14%; background:#E9D7DB; border-radius:50% 50% 14px 14px / 46% 46% 14px 14px" />
+    </div>
+  </section>
+
+  <section data-label="Danışmanlık Alanı" data-screen-label="02" data-speaker-notes="Konumlandırma: kimin haklı olduğu değil, tekrar eden döngü konuşulur." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:120px 140px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">Yaklaşım</p>
+    <h2 style="font:400 68px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:52px 0 0; max-width:26ch; text-wrap:pretty">Görüşmelerde kimin haklı olduğu değil, tekrar eden döngü konuşulur.</h2>
+    <div style="display:flex; gap:70px; margin-top:80px">
+      <p style="flex:1; font:400 32px/1.7 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:0; padding-top:34px; border-top:1px solid #E9D7DB">Çiftler ve aileler danışmanlığa çoğunlukla tek bir olay nedeniyle değil, uzun süredir tekrar eden bir örüntü nedeniyle başvuruyor.</p>
+      <p style="flex:1; font:400 32px/1.7 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:0; padding-top:34px; border-top:1px solid #E9D7DB">Konuşulan şey, o döngünün nasıl kurulduğu ve nerede kopmaya başladığı. Hafta arasında denenebilecek somut adımlar da birlikte belirlenir.</p>
+    </div>
+  </section>
+
+  <section data-label="Çalışma Alanları" data-screen-label="03" data-speaker-notes="Dört çalışma alanı. Detaylar sonraki slaytlarda." style="background:#FBEFEC; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">Çalışma Alanları</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:36px 0 0">Birlikte bakabileceğimiz konular</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:34px; margin-top:70px">
+      <div style="background:#FFFFFF; border-radius:14px; padding:46px 48px; box-shadow:0 10px 34px rgba(125,17,46,0.06)">
+        <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; color:#B85C6E; margin:0">01</p>
+        <h3 style="font:400 42px/1.25 'Libre Caslon Text',serif; color:#7D112E; margin:22px 0 0">Aile &amp; Çift Danışmanlığı</h3>
+        <p style="font:400 28px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:20px 0 0; max-width:30ch">Tekrar eden çatışmalar, duygusal mesafe, güven kırılmaları.</p>
+      </div>
+      <div style="background:#FFFFFF; border-radius:14px; padding:46px 48px; box-shadow:0 10px 34px rgba(125,17,46,0.06)">
+        <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; color:#B85C6E; margin:0">02</p>
+        <h3 style="font:400 42px/1.25 'Libre Caslon Text',serif; color:#7D112E; margin:22px 0 0">Evlilik Öncesi Danışmanlık</h3>
+        <p style="font:400 28px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:20px 0 0; max-width:30ch">Beklentiler, sınırlar ve aileler, sorumluluk paylaşımı.</p>
+      </div>
+      <div style="background:#FFFFFF; border-radius:14px; padding:46px 48px; box-shadow:0 10px 34px rgba(125,17,46,0.06)">
+        <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; color:#B85C6E; margin:0">03</p>
+        <h3 style="font:400 42px/1.25 'Libre Caslon Text',serif; color:#7D112E; margin:22px 0 0">Bireysel İlişki Danışmanlığı</h3>
+        <p style="font:400 28px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:20px 0 0; max-width:30ch">Tekrar eden örüntüler, sınırlar, karar süreçleri.</p>
+      </div>
+      <div style="background:#FFFFFF; border-radius:14px; padding:46px 48px; box-shadow:0 10px 34px rgba(125,17,46,0.06)">
+        <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; color:#B85C6E; margin:0">04</p>
+        <h3 style="font:400 42px/1.25 'Libre Caslon Text',serif; color:#7D112E; margin:22px 0 0">Aile Danışmanlığı</h3>
+        <p style="font:400 28px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:20px 0 0; max-width:30ch">Aile içi roller, kuşaklar arası iletişim, geçiş dönemleri.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="01 · Aile &amp; Çift" data-screen-label="04" data-speaker-notes="Kimlerle çalışıyorum ve neler konuşuluyor." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">01 · Çalışma Alanı</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:32px 0 0">Aile &amp; Çift Danışmanlığı</h2>
+    <p style="font:400 32px/1.65 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:32px 0 0; max-width:60ch">Aynı tartışmanın tekrar ettiği, birbirini duymanın zorlaştığı dönemlerde ilişkinin içindeki döngüye birlikte bakıyoruz.</p>
+    <div style="display:flex; gap:80px; margin-top:64px">
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Kimlerle</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Aynı tartışmaya farklı cümlelerle dönen çiftler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Aynı evde giderek daha az şey anlatanlar</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Güven kırılmasının ardından ne yapacağını bilemeyenler</li>
+        </ul>
+      </div>
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Neler konuşulur</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Tartışmaların hangi noktada yön değiştirdiği</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Söylenmeyenlerin ilişkide nasıl biriktiği</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Denenebilecek somut iletişim değişiklikleri</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="02 · Evlilik Öncesi" data-screen-label="05" data-speaker-notes="Sorun göstergesi değil, hazırlık alanı." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">02 · Çalışma Alanı</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:32px 0 0">Evlilik Öncesi Danışmanlık</h2>
+    <p style="font:400 32px/1.65 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:32px 0 0; max-width:60ch">Birlikte kurulacak hayatın ayrıntılarını, henüz yorulmadan konuşma imkânı. Bir sorun göstergesi değil, bir hazırlık alanı.</p>
+    <div style="display:flex; gap:80px; margin-top:64px">
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Kimlerle</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Evlilik kararı almış ya da nişanlı çiftler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Birlikte yaşamaya geçecek olanlar</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">İki ailenin beklentileri arasında sıkışanlar</li>
+        </ul>
+      </div>
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Neler konuşulur</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Dile getirilmemiş beklenti ve varsayımlar</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Para, çalışma düzeni, sorumluluk paylaşımı</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Ailelerle kurulacak sınırlar</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="03 · Bireysel" data-screen-label="06" data-speaker-notes="Partner katılmasa da ilişkiye kendi tarafından bakmak." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">03 · Çalışma Alanı</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:32px 0 0">Bireysel İlişki Danışmanlığı</h2>
+    <p style="font:400 32px/1.65 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:32px 0 0; max-width:60ch">Partneriniz sürece katılmasa da ilişkinizde neyi değiştirmek istediğinize bakabilirsiniz.</p>
+    <div style="display:flex; gap:80px; margin-top:64px">
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Kimlerle</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Partneri danışmanlığa gelmek istemeyenler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Farklı ilişkilerde benzer örüntüleri yaşayanlar</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Ayrılık ya da boşanma sürecinde olanlar</li>
+        </ul>
+      </div>
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Neler konuşulur</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">İlişkilerde tekrar eden örüntüler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Sınırlar ve suçluluk duygusu</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Karar süreçleri ve sonrasında ne olacağı</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="04 · Aile" data-screen-label="07" data-speaker-notes="Amaç bir kişiyi düzeltmek değil; ailenin işleyişine bakmak." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">04 · Çalışma Alanı</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:32px 0 0">Aile Danışmanlığı</h2>
+    <p style="font:400 32px/1.65 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:32px 0 0; max-width:60ch">Ailede sorun genellikle tek bir kişide değil, zamanla yerleşmiş rollerde ve alışkanlıklarda birikir.</p>
+    <div style="display:flex; gap:80px; margin-top:64px">
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Kimlerle</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Ebeveyn–çocuk iletişimi zorlaşan aileler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Ergenlik dönemindeki değişimi konuşmak isteyenler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Taşınma, kayıp ya da hastalık gibi geçişler</li>
+        </ul>
+      </div>
+      <div style="flex:1; padding-top:32px; border-top:1px solid #E9D7DB">
+        <p style="font:500 24px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#B85C6E; margin:0">Neler konuşulur</p>
+        <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:18px">
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Ailedeki roller ve beklentiler</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Kuşaklar arası iletişim farkları</li>
+          <li style="font:400 30px/1.5 'Hanken Grotesk',sans-serif; color:#4B2330">Birlikte karar alma biçimleri</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Sık Duyulan Cümleler" data-screen-label="08" data-speaker-notes="Danışanların kendi cümleleri; tanıdık gelen bir tanesi yeterli." style="background:#FBEFEC; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">Görüşmelerde Sık Duyulan</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:36px 0 0">Tanıdık gelen bir cümle yeterli</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px 60px; margin-top:70px">
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Konuşmalarımız kısa sürede tartışmaya dönüyor.”</p>
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Birbirimizi seviyoruz ama aynı konuda anlaşamıyoruz.”</p>
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Evlenmeden önce bazı konuları netleştirmek istiyoruz.”</p>
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Partnerim gelmek istemiyor; tek başıma başlayabilir miyim?”</p>
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Bu ilişkide ne istediğimden emin değilim.”</p>
+      <p style="font:400 34px/1.5 'Libre Caslon Text',serif; font-style:italic; color:#7D112E; margin:0; padding:26px 0 0; border-top:1px solid #E3C9CE">“Ayrılık sürecini daha sağlıklı yürütmek istiyorum.”</p>
+    </div>
+  </section>
+
+  <section data-label="Çalışma İlkeleri" data-screen-label="09" data-speaker-notes="Dört temel ilke: tarafsızlık, yargısız alan, size özel süreç, uygulanabilir adımlar." style="background:#FBF7F5; display:flex; flex-direction:column; justify-content:center; padding:110px 120px">
+    <p style="font:500 26px/1 'Hanken Grotesk',sans-serif; letter-spacing:0.2em; text-transform:uppercase; color:#B85C6E; margin:0">Çalışma İlkeleri</p>
+    <h2 style="font:400 64px/1.2 'Libre Caslon Text',serif; letter-spacing:-0.015em; color:#4B2330; margin:36px 0 0">Görüşmelerin çerçevesi</h2>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:56px; margin-top:78px">
+      <div>
+        <p style="font:400 56px/1 'Libre Caslon Text',serif; color:#EFC4C6; margin:0">01</p>
+        <h3 style="font:400 38px/1.3 'Libre Caslon Text',serif; color:#7D112E; margin:24px 0 0">Tarafsızlık</h3>
+        <p style="font:400 27px/1.6 'Hanken Grotesk',sans-serif; color:#6D5E62; margin:18px 0 0">Kimin haklı olduğunu belirl
+</x-dc>
+</body>
+</html>
